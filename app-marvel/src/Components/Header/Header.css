@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.header-top{
+    width: 100%;
+    height: 100px;
+    background: rgb(13, 13, 48);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    font-family: 'Marvel', sans-serif;
+}
+.header-top > h1{
+    color: #fff;
+    margin-left: 50px;
+}
+.logo{
+    height: 70%;
+    margin-left: 10px;
+}

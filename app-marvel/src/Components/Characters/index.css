@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: 'Marvel', sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    height: 90px;
+    align-items: center;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    cursor: pointer;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card > p 
+
+.img-card{
+    height: 209px;
+    display: flex;
+}
+.more-info{
+    bottom: 0;
+}
+
+.ReactModal__Overlay{
+    background-color: rgb(10 10 34 / 75%) !important;
+}
+
+.searchContainer{
+    background: rgba(22, 22, 22, 0.522);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    z-index: 15;
+}
+.text-card > h3{
+    color: #fff;
+}
+#pesquisar{
+    width: 250px;
+}
+#item{
+    color: rgb(97, 9, 9);
+}
+
+.headerModal{
+    display: flex;
+    justify-content: end;
+}
+.headerModal > i{
+    cursor: pointer;
+}
+.imgModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ReactModal__Content{
+    background: grey !important;
+}
+
+@media (max-width: 360px){
+    .text-card > h3{
+        font-size: 12px;
+    }
+    
+    .text-card{
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 770px){
+    .text-card > h3{
+        font-size: 18px;
+    }
+    
+    .text-card{
+        min-width: 250px;
+    }
+}
+
+@media (min-width: 770px){
+    .text-card > h3{
+        font-size: 20px;
+    }
+    
+    .text-card{
+        min-width: 250px;
+    }
+}
