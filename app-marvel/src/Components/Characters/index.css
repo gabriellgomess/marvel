@@ -28,7 +28,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.card > p 
+
 
 .img-card{
     height: 209px;
@@ -40,10 +40,11 @@
 
 .ReactModal__Overlay{
     background-color: rgb(10 10 34 / 75%) !important;
+    
 }
 
 .searchContainer{
-    background: rgba(22, 22, 22, 0.522);
+    background: #26262691;
     height: 60px;
     display: flex;
     align-items: center;
@@ -77,25 +78,36 @@
 }
 .ReactModal__Content{
     background: grey !important;
+    width: 80%;
 }
 
-@media (max-width: 360px){
+@media (max-width: 330px){
     .text-card > h3{
         font-size: 12px;
+        
     }
-    
+    .card{
+        height: 220px;
+    }
     .text-card{
-        min-width: 250px;
+        max-width: 300px;
+        flex-direction: column;
     }
 }
 
 @media (max-width: 770px){
     .text-card > h3{
-        font-size: 18px;
+        font-size: 18px;        
+    }
+    .card{
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+             
     }
     
     .text-card{
-        min-width: 250px;
+        max-width: 300px;
     }
 }
 
@@ -105,6 +117,11 @@
     }
     
     .text-card{
-        min-width: 250px;
+        max-width: 300px;
     }
+    
+}
+
+.capitalized {
+	text-transform: capitalize;
 }
