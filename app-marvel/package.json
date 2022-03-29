@@ -1,7 +1,7 @@
 {
   "name": "app-marvel",
   "version": "0.1.0",
-  "homepage": "https://gabriellgomess.github.io/marvel-comics",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
@@ -24,8 +24,6 @@
     "yarn": "^1.22.18"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
